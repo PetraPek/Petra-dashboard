@@ -1,0 +1,122 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+html {
+    --color: #3498DB;
+}
+
+body {
+    background-color: #D6EAF8;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main {
+    padding: 10px 80px 10px 80px;
+}
+
+.header {
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    color: var(--color);
+    padding: 5px;
+    margin: 10px;
+    font-size: 50px;
+}
+
+.petra-photo {
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.personal-data {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+.personal-name {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+
+.dashboard {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    margin: auto;
+    border-radius: 30px;
+    padding: 80px;
+}
+
+.acount {
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    padding: 50px;
+    width: 450px;
+    height: 530px;
+}
+
+.acount-title {
+    color:#3498DB;
+    margin: 0;
+}
+
+.icon-pencil,
+.icon-merge,
+.icon-switch,
+.icon-lock,
+.icon-logout{
+    width: 50px;
+    height: 50px;
+    border: 2px #3498DB solid;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.edit,
+.merge,
+.switch,
+.lock,
+.logout {
+    display: flex;
+    margin: 0 0 0 70px;
+}
+
+.icons {
+    margin-left: auto;
+}
+
+.acout-edit {
+    margin: 25px 0 0 70px;
+}
+
+.acount-merge {
+    margin: 25px 0 0 98px;
+}
+
+.acount-switch {
+    margin: 25px 0 0 90px;
+}
+
+.acount-lock {
+    margin: 25px 0 0 95px;
+}
+
+.acount-logout {
+    margin: 25px 0 0 110px;
+}
+
+.acount-close {
+    font-size: 15px;
+    color: lightslategray;
+    margin: 0;
+    padding: 40px 20px;
+}
